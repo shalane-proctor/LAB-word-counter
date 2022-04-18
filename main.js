@@ -3,10 +3,7 @@ console.log("Connected!");
 const wordCounter = (value) => {
   // Type into the input and press submit, you will see the value you entered in your console
   console.log(value);
-  var removeSpaces = value.replace(/ /g, "");
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
-  var length = removeSpaces.length;
+  var length = value.split(" ").length;
 
   if (value) {
     // COMPLETE THE LOGIC
