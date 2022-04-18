@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: white;
   width: 90%;
   text-align: center;
   display: block;
@@ -14,7 +14,7 @@ textarea {
 ::placeholder {
   color: blue;
 }
-button {
+.btn-primary {
   background-color: green;
   color: white;
   padding: 5px;
