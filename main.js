@@ -17,6 +17,8 @@ const wordCounter = (value) => {
 // OPTIONAL CHALLENGE
 const toggleMode = (btnText) => {
   // complete the function
+  document.querySelector("body").style.background = "black";
+  document.querySelector("textarea").style.background = "grey";
 };
 
 // ************************************************ //
